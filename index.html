@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Hotel SS Exotica in Motihari, Bihar. Experience luxury rooms, Sangam multi-cuisine restaurant, and Sagun Banquet Hall for premium events. Book your stay today!">
+    <meta name="keywords" content="Hotel SS Exotica, Motihari Hotel, Banquet Hall Motihari, Restaurant Motihari, Luxury Hotel Bihar, Sangam Restaurant, Sagun Banquet">
+    <meta name="author" content="Hotel SS Exotica">
+    <title>Hotel SS Exotica | Premium Hotel, Banquet & Restaurant in Motihari, Bihar</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-container">
+            <a href="#" class="brand-logo" id="brandLogo">
+                <img src="logo.jpg" alt="SS Exotica Logo" class="logo-img">
+                <span class="brand-text">SS EXOTICA</span>
+            </a>
+            
+            <nav class="main-navigation" id="mainNav">
+                <ul>
+                    <li><a href="#about" class="nav-link">Our Story</a></li>
+                    <li><a href="#rooms" class="nav-link">Rooms & Suites</a></li>
+                    <li><a href="#gastronomy" class="nav-link">Gastronomy</a></li>
+                    <li><a href="#banquets" class="nav-link">Banquets</a></li>
+                    <li><a href="#location" class="nav-link">Location</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#rooms" class="btn btn-primary btn-book-now">Book Your Stay</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-bg-slider">
+            <div class="hero-slide active" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('images/hero_bg.png');"></div>
+        </div>
+        <div class="hero-content-wrapper">
+            <div class="hero-text-container">
+                <span class="hero-subtitle">Refined Luxury in Motihari</span>
+                <h1 class="hero-title">A Sanctuary of Elegance & Comfort</h1>
+                <p class="hero-tagline">Experience premium hospitality, contemporary architecture, and curated gastronomy in the heart of Champaran.</p>
+                <div class="hero-buttons">
+                    <a href="#rooms" class="btn btn-secondary">Explore Rooms</a>
+                    <a href="#about" class="btn btn-outline-white">Discover More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Booking Search Bar -->
+        <div class="quick-booking-bar">
+            <form class="quick-booking-form" id="quickBookingForm">
+                <div class="form-group-booking">
+                    <label for="quick-checkin">Check-in</label>
+                    <input type="date" id="quick-checkin" required>
+                </div>
+                <div class="form-group-booking">
+                    <label for="quick-checkout">Check-out</label>
+                    <input type="date" id="quick-checkout" required>
+                </div>
+                <div class="form-group-booking">
+                    <label for="quick-room">Room Category</label>
+                    <select id="quick-room">
+                        <option value="deluxe">Deluxe Room — ₹1,499</option>
+                        <option value="super-deluxe">Super Deluxe — ₹2,350</option>
+                        <option value="suite">Executive Suite — ₹2,650</option>
+                        <option value="luxury">Luxury Room (4 Occ.) — ₹4,000</option>
+                    </select>
+                </div>
+                <div class="form-group-booking">
+                    <label for="quick-guests">Guests</label>
+                    <select id="quick-guests">
+                        <option value="1">1 Guest</option>
+                        <option value="2" selected>2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5+">5+ Guests</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-search-rooms">Book Now</button>
+            </form>
+        </div>
+
+        <div class="scroll-down-indicator">
+            <a href="#about" aria-label="Scroll down">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+        <div class="container grid-2">
+            <div class="about-text-content" data-animate="fade-right">
+                <span class="section-label">Our Heritage</span>
+                <h2 class="section-title">Luxury Reimagined</h2>
+                <p class="about-paragraph">Located at Bankat near NH-28A in Motihari, **Hotel SS Exotica** blends contemporary hospitality with timeless warmth. Designed to be a haven for travelers, business leaders, and families, we offer unparalleled comfort, a fine-dining multi-cuisine restaurant, and grand event spaces.</p>
+                <p class="about-paragraph">Whether you are visiting Champaran for business, leisure, or hosting a lifetime celebration at our Sagun Banquet, our team is dedicated to curating a flawless experience. Enjoy modern architecture, top-tier amenities, and standard-setting service.</p>
+                
+                <div class="amenities-highlights-grid">
+                    <div class="amenity-highlight-item">
+                        <div class="icon-wrap">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" class="feather"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+                        </div>
+                        <span>Complimentary High-speed Wi-Fi</span>
+                    </div>
+                    <div class="amenity-highlight-item">
+                        <div class="icon-wrap">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" class="feather"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+                        </div>
+                        <span>100% AC Power Backup</span>
+                    </div>
+                    <div class="amenity-highlight-item">
+                        <div class="icon-wrap">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" class="feather"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <span>Complimentary Buffet Breakfast</span>
+                    </div>
+                    <div class="amenity-highlight-item">
+                        <div class="icon-wrap">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" class="feather"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <span>24-Hour In-room Dining</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-image-showcase" data-animate="fade-left">
+                <div class="image-wrapper-stack">
+                    <img src="images/entrance_real.jpg" alt="Hotel SS Exotica Entrance" class="about-img-main">
+                    <div class="about-badge">
+                        <span class="badge-num">100%</span>
+                        <span class="badge-txt">Power & Comfort Guaranteed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms and Suites Section -->
+    <section class="rooms-section section-padding bg-cream" id="rooms">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">Stays</span>
+                <h2 class="section-title">Luxurious Accommodations</h2>
+                <p class="section-subtitle">Choose from our beautifully appointed rooms, complete with premium amenities, sleek designs, and absolute comfort.</p>
+            </div>
+
+            <!-- Rooms Interactive Tabs -->
+            <div class="rooms-tab-container">
+                <div class="rooms-tabs-navigation" id="roomsTabsNav">
+                    <button class="room-tab-btn active" data-room-id="deluxe">Deluxe Room</button>
+                    <button class="room-tab-btn" data-room-id="super-deluxe">Super Deluxe Room</button>
+                    <button class="room-tab-btn" data-room-id="suite">Executive Suite</button>
+                    <button class="room-tab-btn" data-room-id="luxury">Luxury Room (4 Occ.)</button>
+                </div>
+
+                <div class="room-tab-content-wrapper" id="roomTabContent">
+                    <!-- Room Details Card (Deluxe Room - Active by Default) -->
+                    <div class="room-detail-card active" id="room-deluxe">
+                        <div class="room-card-grid">
+                            <div class="room-card-image">
+                                <img src="images/deluxe_room_real.jpg" alt="Deluxe Room Interior" class="room-display-img">
+                            </div>
+                            <div class="room-card-info">
+                                <h3 class="room-name">Deluxe Room</h3>
+                                <p class="room-desc">Ideal for corporate travelers and couples, our Deluxe Room is designed with premium comfort in mind. Features elegant lighting, cozy layouts, and modern furnishings to ensure a relaxing stay after a long day.</p>
+                                
+                                <div class="room-pricing">
+                                    <div class="price-item">
+                                        <span class="price-label">Double Occupancy</span>
+                                        <span class="price-value">₹1,499<span class="price-period">/ night</span></span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-label">Extra Bed</span>
+                                        <span class="price-value">₹500<span class="price-period">/ guest</span></span>
+                                    </div>
+                                </div>
+
+                                <div class="room-features">
+                                    <h4 class="features-title">Room Amenities & Facilities</h4>
+                                    <ul class="features-list">
+                                        <li><span>Complimentary buffet breakfast</span></li>
+                                        <li><span>LED TV with digital cable connection</span></li>
+                                        <li><span>Fully Wi-Fi enabled high-speed internet</span></li>
+                                        <li><span>Complimentary 1L packaged drinking water daily</span></li>
+                                        <li><span>Running hot & cold water</span></li>
+                                        <li><span>Daily morning newspaper</span></li>
+                                        <li><span>Express laundry service</span></li>
+                                        <li><span>Doctor on call</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="room-card-actions">
+                                    <button class="btn btn-primary btn-book-trigger" data-room="deluxe">Book Deluxe Room</button>
+                                    <a href="#tariff-card" class="btn btn-text">View Full Tariff Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Room Details Card (Super Deluxe Room) -->
+                    <div class="room-detail-card" id="room-super-deluxe">
+                        <div class="room-card-grid">
+                            <div class="room-card-image">
+                                <img src="file:///C:/Users/acer/.gemini/brain/be404fb5-27d1-4f03-bde4-31b81f7c334b/super_deluxe_1781010510970.png" alt="Super Deluxe Room Interior" class="room-display-img">
+                            </div>
+                            <div class="room-card-info">
+                                <h3 class="room-name">Super Deluxe Room</h3>
+                                <p class="room-desc">For guests desiring extra space and elegance, the Super Deluxe Room features premium wooden paneling, a large sitting area, and rich fabrics. Offering premium linens and an enhanced comfort profile.</p>
+                                
+                                <div class="room-pricing">
+                                    <div class="price-item">
+                                        <span class="price-label">Double Occupancy</span>
+                                        <span class="price-value">₹2,350<span class="price-period">/ night</span></span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-label">Extra Bed</span>
+                                        <span class="price-value">₹500<span class="price-period">/ guest</span></span>
+                                    </div>
+                                </div>
+
+                                <div class="room-features">
+                                    <h4 class="features-title">Room Amenities & Facilities</h4>
+                                    <ul class="features-list">
+                                        <li><span>Complimentary buffet breakfast</span></li>
+                                        <li><span>LED TV with premium digital HD cable</span></li>
+                                        <li><span>Fully Wi-Fi enabled high-speed internet</span></li>
+                                        <li><span>Complimentary 1L packaged drinking water daily</span></li>
+                                        <li><span>Running hot & cold water (24h)</span></li>
+                                        <li><span>Daily morning newspaper & magazines</span></li>
+                                        <li><span>Express laundry & dry cleaning service</span></li>
+                                        <li><span>Doctor on call & 24h room service</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="room-card-actions">
+                                    <button class="btn btn-primary btn-book-trigger" data-room="super-deluxe">Book Super Deluxe</button>
+                                    <a href="#tariff-card" class="btn btn-text">View Full Tariff Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Room Details Card (Executive Suite) -->
+                    <div class="room-detail-card" id="room-suite">
+                        <div class="room-card-grid">
+                            <div class="room-card-image">
+                                <img src="file:///C:/Users/acer/.gemini/brain/be404fb5-27d1-4f03-bde4-31b81f7c334b/suite_room_1781010562865.png" alt="Executive Suite Interior" class="room-display-img">
+                            </div>
+                            <div class="room-card-info">
+                                <h3 class="room-name">Executive Suite</h3>
+                                <p class="room-desc">Our ultimate luxury stay. The Executive Suite features an adjoining stylish living room lounge, curated art, marble details, and top-of-the-line amenities. Perfect for VIP travelers, business executives, or those celebrating special occasions.</p>
+                                
+                                <div class="room-pricing">
+                                    <div class="price-item">
+                                        <span class="price-label">Double Occupancy</span>
+                                        <span class="price-value">₹2,650<span class="price-period">/ night</span></span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-label">Extra Bed</span>
+                                        <span class="price-value">₹500<span class="price-period">/ guest</span></span>
+                                    </div>
+                                </div>
+
+                                <div class="room-features">
+                                    <h4 class="features-title">Room Amenities & Facilities</h4>
+                                    <ul class="features-list">
+                                        <li><span>Complimentary buffet breakfast</span></li>
+                                        <li><span>Large LED TV with high-definition digital cable</span></li>
+                                        <li><span>Separate living lounge and coffee setup</span></li>
+                                        <li><span>Complimentary 1L packaged drinking water daily</span></li>
+                                        <li><span>Premium bathroom toiletries</span></li>
+                                        <li><span>Daily morning newspaper</span></li>
+                                        <li><span>Express laundry service</span></li>
+                                        <li><span>24-Hour room dining & personalized guest services</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="room-card-actions">
+                                    <button class="btn btn-primary btn-book-trigger" data-room="suite">Book Executive Suite</button>
+                                    <a href="#tariff-card" class="btn btn-text">View Full Tariff Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Room Details Card (Luxury Room - 4 Occupancy) -->
+                    <div class="room-detail-card" id="room-luxury">
+                        <div class="room-card-grid">
+                            <div class="room-card-image">
+                                <img src="file:///C:/Users/acer/.gemini/brain/be404fb5-27d1-4f03-bde4-31b81f7c334b/luxury_room_1781010596031.png" alt="Luxury Room Interior" class="room-display-img">
+                            </div>
+                            <div class="room-card-info">
+                                <h3 class="room-name">Luxury Room (Four Occupancy)</h3>
+                                <p class="room-desc">Designed specifically for families and groups, the Luxury Room features two side-by-side premium queen beds to comfortably host up to four adults. Offers ample space, cozy lighting, and complete family amenities.</p>
+                                
+                                <div class="room-pricing">
+                                    <div class="price-item">
+                                        <span class="price-label">Four Occupancy</span>
+                                        <span class="price-value">₹4,000<span class="price-period">/ night</span></span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-label">Extra Bed</span>
+                                        <span class="price-value">₹500<span class="price-period">/ guest</span></span>
+                                    </div>
+                                </div>
+
+                                <div class="room-features">
+                                    <h4 class="features-title">Room Amenities & Facilities</h4>
+                                    <ul class="features-list">
+                                        <li><span>Complimentary buffet breakfast for four</span></li>
+                                        <li><span>LED TV with digital cable connection</span></li>
+                                        <li><span>Fully Wi-Fi enabled high-speed internet</span></li>
+                                        <li><span>Complimentary packaged drinking water daily</span></li>
+                                        <li><span>Running hot & cold water (24h)</span></li>
+                                        <li><span>Daily morning newspaper</span></li>
+                                        <li><span>Express laundry service</span></li>
+                                        <li><span>Doctor on call & family care options</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="room-card-actions">
+                                    <button class="btn btn-primary btn-book-trigger" data-room="luxury">Book Luxury Room</button>
+                                    <a href="#tariff-card" class="btn btn-text">View Full Tariff Card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gastronomy - Sangam Restaurant -->
+    <section class="gastronomy-section section-padding" id="gastronomy">
+        <div class="container grid-2 align-center">
+            <div class="gastronomy-image-block" data-animate="fade-right">
+                <img src="file:///C:/Users/acer/.gemini/brain/be404fb5-27d1-4f03-bde4-31b81f7c334b/media__1781011620463.jpg" alt="Sangam Restaurant Interior" class="restaurant-img-large">
+                <div class="restaurant-badge">
+                    <span class="badge-title">SANGAM</span>
+                    <span class="badge-subtitle">Multi-cuisine Restaurant</span>
+                </div>
+            </div>
+
+            <div class="gastronomy-text-block" data-animate="fade-left">
+                <span class="section-label">Dining</span>
+                <h2 class="section-title">Sangam Restaurant</h2>
+                <p class="about-paragraph">Located on the ground floor of Hotel SS Exotica, **Sangam Restaurant** is a premier culinary destination in Motihari. Designed with a warm, elegant ambiance, Sangam features a rich multi-cuisine menu carefully curated by our master chefs.</p>
+                <p class="about-paragraph">From authentic North Indian dishes and regional delicacies to Chinese classics and international options, Sangam catering meets all tastes. Our dining space is fully equipped to serve a wide range of mocktails, fine beverages, and desserts.</p>
+                
+                <div class="restaurant-details-features">
+                    <div class="restaurant-feature">
+                        <h4>Ground Floor Location</h4>
+                        <p>Conveniently located for both staying guests and local diners.</p>
+                    </div>
+                    <div class="restaurant-feature">
+                        <h4>Diverse Menu</h4>
+                        <p>Fully customizable multi-cuisine selection and high-end catering.</p>
+                    </div>
+                    <div class="restaurant-feature">
+                        <h4>Beverages & Drinks</h4>
+                        <p>Equipped with an extensive range of refreshments and cold beverages.</p>
+                    </div>
+                </div>
+
+                <a href="#contact" class="btn btn-primary">Reserve a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banquets & Events - Sagun Banquet -->
+    <section class="banquets-section section-padding bg-dark text-white" id="banquets">
+        <div class="container">
+            <div class="banquets-grid-layout">
+                <div class="banquets-text-content" data-animate="fade-right">
+                    <span class="section-label label-gold">Events & Meetings</span>
+                    <h2 class="section-title">Sagun Banquet & Conference</h2>
+                    <p class="about-paragraph">Celebrate your special moments and host your executive events in style at our premier convention space, **Sagun Banquet & Meeting Hall**. Featuring contemporary designs and professional setups, it serves as the perfect backdrop for weddings, executive board meetings, corporate conferences, and seminars.</p>
+                    <p class="about-paragraph">Our facilities are perfectly tailored to cater to gatherings of **50 to 150 pax** in the main hall, alongside a fully-equipped executive conference room. Enjoy top-tier corporate styling, professional AV equipment, and master-chef catering from Sangam Restaurant.</p>
+                    
+                    <div class="banquet-metrics">
+                        <div class="metric-item">
+                            <span class="metric-number">50 - 150</span>
+                            <span class="metric-label">Guest Capacity (Pax)</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-number">100%</span>
+                            <span class="metric-label">Customizable Decor</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-number">AV</span>
+                            <span class="metric-label">Equipped Conference Room</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-gold">Inquire About Banquet</a>
+                </div>
+
+                <div class="banquets-image-showcase" data-animate="fade-left">
+                    <div class="banquet-card-frame">
+                        <img src="images/conference_room_real.jpg" alt="Sagun Executive Conference Room" class="banquet-display-img-large">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tariff Card Modal/Visual Section -->
+    <section class="tariff-section section-padding bg-cream" id="tariff-card">
+        <div class="container text-center">
+            <div class="section-header">
+                <span class="section-label">Pricing Details</span>
+                <h2 class="section-title">Official Room Tariff</h2>
+                <p class="section-subtitle">Take a look at our transparent, standard pricing list and terms. Click to view or download our official tariff card.</p>
+            </div>
+
+            <div class="tariff-card-holder custom-tariff-holder">
+                <!-- Tariff Rates Card -->
+                <div class="tariff-table-card" data-animate="fade-right">
+                    <div class="card-header-accent">
+                        <h3>Official Rates</h3>
+                        <p class="subtitle-accent">Double Occupancy (Per Night Basis)</p>
+                    </div>
+                    <table class="tariff-table">
+                        <thead>
+                            <tr>
+                                <th>Room Category</th>
+                                <th class="text-right">Daily Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="category-name">Deluxe Room</td>
+                                <td class="price-value text-right">₹1,499</td>
+                            </tr>
+                            <tr>
+                                <td class="category-name">Super Deluxe Room</td>
+                                <td class="price-value text-right">₹2,350</td>
+                            </tr>
+                            <tr>
+                                <td class="category-name">Executive Suite</td>
+                                <td class="price-value text-right">₹2,650</td>
+                            </tr>
+                            <tr>
+                                <td class="category-name">Luxury Room <span class="four-occ">(Four Occupancy)</span></td>
+                                <td class="price-value text-right">₹4,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="tariff-subnotes">
+                        <div class="subnote-item">
+                            <span class="subnote-label">Extra Bed:</span>
+                            <span class="subnote-value">₹500 / night</span>
+                        </div>
+                        <div class="subnote-item">
+                            <span class="subnote-label">Check-out Time:</span>
+                            <span class="subnote-value">12:00 Noon</span>
+                        </div>
+                        <div class="subnote-item">
+                            <span class="subnote-label">Tax Policy:</span>
+                            <span class="subnote-value">Taxes extra as applicable</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Amenities & Terms Card -->
+                <div class="tariff-details-card" data-animate="fade-left">
+                    <div class="details-tabs-navigation" id="detailsTabsNav">
+                        <button class="details-tab-btn active" data-tab-id="inclusions">Stay Inclusions</button>
+                        <button class="details-tab-btn" data-tab-id="facilities">Room Facilities</button>
+                        <button class="details-tab-btn" data-tab-id="policies">Terms & Policies</button>
+                    </div>
+                    
+                    <div class="details-tab-content" id="detailsTabContent">
+                        <!-- Inclusions Panel -->
+                        <div class="details-panel active" id="details-inclusions">
+                            <h4 class="panel-panel-title">Inclusive Stays</h4>
+                            <ul class="styled-list">
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Accommodation on per-night basis in selected rooms.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Complimentary delicious buffet breakfast daily.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Complimentary daily morning newspaper delivered to room.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>No charge for children below 5 years.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Complimentary 1 Liter bottle of packaged drinking water per day.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Facilities Panel -->
+                        <div class="details-panel" id="details-facilities">
+                            <h4 class="panel-panel-title">Premium Facilities</h4>
+                            <ul class="styled-list grid-list">
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>LED TV with digital cable connection.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Wireless Internet Access (Fully Wi-Fi).</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Running hot and cold water.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>100% Power backup for air-conditioning.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>24-Hour in-room dining facility.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Express laundry and cleaning services.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Doctor on call available.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Policies Panel -->
+                        <div class="details-panel" id="details-policies">
+                            <h4 class="panel-panel-title">Terms & Conditions</h4>
+                            <ul class="styled-list">
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Full advance is required to confirm your booking.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>All major credit cards and digital payments accepted.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Tariffs are subject to change without prior notice.</span>
+                                </li>
+                                <li>
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    <span>Early check-in & check-out depend entirely on availability.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map and Location Section -->
+    <section class="location-section section-padding" id="location">
+        <div class="container grid-2">
+            <div class="contact-details-block" id="contact" data-animate="fade-right">
+                <span class="section-label">Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-intro">Planning a stay, booking a table, or scheduling an event? Write to us, call us directly, or visit our property in Motihari.</p>
+
+                <div class="contact-info-list">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>NH-28A, Bankat, Motihari, Bihar - 845401<br>Near DAV Public School (Opposite Hyundai Showroom)</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Mobile Contacts</h4>
+                            <p><a href="tel:+918579069500">+91 85790 69500</a>, <a href="tel:+919431428969">+91 94314 28969</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email Address</h4>
+                            <p><a href="mailto:ssexoticamotihari@gmail.com">ssexoticamotihari@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="directions-button-wrap">
+                    <a href="https://maps.app.goo.gl/QE5pGohMALpwUqJV7" target="_blank" rel="noopener" class="btn btn-secondary">Get GPS Directions</a>
+                </div>
+            </div>
+
+            <!-- Map Iframe Block -->
+            <div class="location-map-block" data-animate="fade-left">
+                <div class="map-iframe-container">
+                    <!-- Standard Google Map centered at NH-28A, Motihari near DAV public school -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.449767852329!2d84.9038234!3d26.6340455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399335ad3e77f0a7%3A0xe10884d656041ec6!2sHotel%20S.S%20Exotica%2C%20Motihari!5e0!3m2!1sen!2sin!4v1781010000000!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        id="locationMap">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="logo.jpg" alt="SS Exotica Logo" class="footer-logo-img">
+                    <h3>SS EXOTICA</h3>
+                </div>
+                <p>Enjoy elegant stays, contemporary architecture, delicious food, and spacious banquet venues at NH-28A, Bankat, Motihari, Bihar.</p>
+                <p class="copyright-text">&copy; 2026 Hotel SS Exotica. All rights reserved.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#rooms">Rooms & Stays</a></li>
+                    <li><a href="#gastronomy">Sangam Restaurant</a></li>
+                    <li><a href="#banquets">Sagun Banquet</a></li>
+                    <li><a href="#location">Directions</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact-summary">
+                <h4>Hotel SS Exotica</h4>
+                <p>N.H.-28A Bankat, Motihari, Bihar<br>Pin Code: 845401</p>
+                <p>Mob: +91 85790 69500, 94314 28969</p>
+                <p>Email: ssexoticamotihari@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Booking Modal -->
+    <div class="booking-modal-overlay" id="bookingModal">
+        <div class="booking-modal-container">
+            <button class="close-modal-btn" id="closeModal" aria-label="Close Booking Modal">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            
+            <div class="booking-modal-content" id="bookingFormWrapper">
+                <h3 class="modal-title">Request a Reservation</h3>
+                <p class="modal-intro">Complete the form below to submit a reservation request to Hotel SS Exotica. Our front desk will contact you immediately to finalize your booking.</p>
+                
+                <form class="modal-booking-form" id="modalBookingForm">
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label for="book-name">Full Name *</label>
+                            <input type="text" id="book-name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="book-phone">Mobile Number *</label>
+                            <input type="tel" id="book-phone" required placeholder="10-digit mobile number">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="book-email">Email Address</label>
+                        <input type="email" id="book-email" placeholder="example@email.com">
+                    </div>
+
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label for="book-checkin">Check-in Date *</label>
+                            <input type="date" id="book-checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="book-checkout">Check-out Date *</label>
+                            <input type="date" id="book-checkout" required>
+                        </div>
+                    </div>
+
+                    <div class="form-grid-3">
+                        <div class="form-group">
+                            <label for="book-room">Room Category *</label>
+                            <select id="book-room" required>
+                                <option value="deluxe">Deluxe Room — ₹1,499</option>
+                                <option value="super-deluxe">Super Deluxe Room — ₹2,350</option>
+                                <option value="suite">Executive Suite — ₹2,650</option>
+                                <option value="luxury">Luxury Room (4 Occ.) — ₹4,000</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="book-guests">Adults *</label>
+                            <select id="book-guests" required>
+                                <option value="1">1 Adult</option>
+                                <option value="2">2 Adults</option>
+                                <option value="3">3 Adults</option>
+                                <option value="4">4 Adults</option>
+                                <option value="5+">5+ Adults</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="book-extra-bed">Extra Bed</label>
+                            <select id="book-extra-bed">
+                                <option value="no">No (₹0)</option>
+                                <option value="yes">Yes (+₹500 / night)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="book-notes">Special Requests / Requirements</label>
+                        <textarea id="book-notes" rows="3" placeholder="Any special arrangements, arrival details, dietary needs, etc."></textarea>
+                    </div>
+
+                    <div class="booking-notice">
+                        <p>Note: Submission is a booking request. Confirmation will be sent via Call/SMS/Email from the hotel desk after tariff validation.</p>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit-booking">Send Booking Request</button>
+                </form>
+            </div>
+
+            <!-- Booking Success Screen -->
+            <div class="booking-success-wrapper" id="bookingSuccessScreen" style="display: none;">
+                <div class="success-icon-wrap">
+                    <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                </div>
+                <h3>Reservation Inquiry Sent!</h3>
+                <p class="success-message">Thank you. Your booking request has been registered. Our reception team will contact you shortly to confirm room availability and complete payment details.</p>
+                
+                <!-- Inquiry Slip -->
+                <div class="inquiry-slip" id="inquirySlip">
+                    <div class="slip-header">
+                        <h4>SS EXOTICA RESERVATION REQUEST</h4>
+                        <span class="slip-id" id="slipId">EX-2026-00000</span>
+                    </div>
+                    <div class="slip-body">
+                        <div class="slip-row"><span>Guest Name:</span><strong id="slipName">John Doe</strong></div>
+                        <div class="slip-row"><span>Mobile:</span><strong id="slipPhone">+91 0000000000</strong></div>
+                        <div class="slip-row"><span>Stay Dates:</span><strong id="slipDates">Jun 10 - Jun 12 (2 nights)</strong></div>
+                        <div class="slip-row"><span>Room Selected:</span><strong id="slipRoom">Deluxe Room</strong></div>
+                        <div class="slip-row"><span>Guests:</span><strong id="slipGuests">2 Adults</strong></div>
+                        <div class="slip-row"><span>Extra Bed:</span><strong id="slipExtra">No</strong></div>
+                        <div class="slip-row slip-total"><span>Estimated Tariff:</span><strong id="slipTotal">₹2,998</strong></div>
+                    </div>
+                    <div class="slip-footer">
+                        <p>Hotel Contact: +91 85790 69500 | ssexoticamotihari@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="success-actions">
+                    <button class="btn btn-primary" onclick="window.print()">Print Slip</button>
+                    <button class="btn btn-outline" id="btnBookAnother">Book Another Stay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
